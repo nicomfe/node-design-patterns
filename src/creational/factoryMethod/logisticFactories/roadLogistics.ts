@@ -1,6 +1,6 @@
 import Logistics from './logistics'
-import Transport from './transport'
-import Truck from './transport/truck'
+import Transport from '../transportProducts'
+import Truck from '../transportProducts/truck'
 
 class RoadLogistics extends Logistics {
   createTransport(): Transport {

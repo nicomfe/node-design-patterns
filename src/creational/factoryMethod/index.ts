@@ -1,6 +1,6 @@
-import Logistics from './logistics'
-import RoadLogistics from './roadLogistics'
-import SeaLogistics from './seaLogistics'
+import Logistics from './logisticFactories/logistics'
+import RoadLogistics from './logisticFactories/roadLogistics'
+import SeaLogistics from './logisticFactories/seaLogistics'
 
 console.log('Starting factory method pattern example...')
 

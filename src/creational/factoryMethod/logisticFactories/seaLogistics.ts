@@ -1,5 +1,5 @@
-import Transport from './transport'
-import Ship from './transport/ship'
+import Transport from '../transportProducts'
+import Ship from '../transportProducts/ship'
 import Logistics from './logistics'
 
 class SeaLogistics extends Logistics {

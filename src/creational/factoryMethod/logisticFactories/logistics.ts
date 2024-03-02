@@ -1,4 +1,4 @@
-import Transport from './transport'
+import Transport from '../transportProducts'
 
 export default abstract class Logistics {
   planDelivery(): string {
